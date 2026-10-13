@@ -52,3 +52,15 @@ summary(wdi_country_only_2020$gdppc)
 #QUESTION 4
 plot(wdi_country_only_2020$gdppc,wdi_country_only_2020$lifeexp)
 
+
+write.csv(wdi_country_only, "wdi_clean.csv")
+
+new_data <- read.csv("wdi_clean.csv")
+
+
+write.csv(wdi_country_only,"wdi.clean.csv", row.names = FALSE)
+
+# PART 2
+
+
+
