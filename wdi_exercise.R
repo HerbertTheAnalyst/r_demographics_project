@@ -31,3 +31,5 @@ length(unique(raw_data$country))
 # Count the total unique years in our data
 length(unique(raw_data$year))
 
+
+
